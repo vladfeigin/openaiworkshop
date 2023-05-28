@@ -1,0 +1,2 @@
+how many sources are there for dataflow gen 2?
+can I use PowerBI datamart for 110 GB data volume? Explain which other options are available for data volumes of 110 GB

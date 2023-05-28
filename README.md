@@ -56,5 +56,21 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 ### Setup environemnt variables
 * Edit the `.env` file including Azure OpenAI endpoint and key before starting any coding
 
-### Install all libraries
+#### Python3 Virtualenv Setup
+*  Installation
+        To install virtualenv via pip run:
+            $ pip3 install virtualenv
+* Creation of virtualenv:
+    - Windows
+    $ python -m virtualenv venv (in the openAI workshop directory)
+    - Mac
+    $ virtualenv -p python3 <desired-path>
+
+### Install all libraries in your virtual environment
+* Activate the environment
+    Windows:
+        .\venv\Scripts\activate.ps1
+    Mac:
+    $ source ./venv/bin/activate
+
 * Make sure you have the requirements installed in your Python environment using `pip install -r requirements.txt`.

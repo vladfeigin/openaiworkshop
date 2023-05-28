@@ -1,0 +1,10 @@
+openai
+pandas
+tiktoken
+scikit-learn
+python-dotenv
+matplotlib
+plotly
+langchain
+pypdf
+faiss-cpu
