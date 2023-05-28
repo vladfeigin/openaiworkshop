@@ -6,16 +6,16 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 ## Agenda
 
 ### Morning (9:00 - 12:00)
-- Theory: Introduction to LLMs, GPT and prompts - (30 mins)
-- Lab #1 : Connect to OpenAI and ask questions
-- Theory: Prompt engineering, Zero-shot learning, Few-shot learning (30 mins)
-- Lab #2 : Create prompts for summarization, json, tabular answer
+- 1- Presentation - Introduction to LLMs, GPT and prompts - (30 mins)
+- 2- Lab #1 - Connect to OpenAI and ask questions
+- 3- Presentation - Prompt engineering, Zero-shot learning, Few-shot learning (30 mins)
+- 4- Lab #2 - Create prompts for summarization, json, tabular answer
 ### Afternoon (13:00 - 17:00)
-- Theory : Embeddings (30 mins)
-- Lab #3 : Create embeddings in pandas
-- Theory: Langchain, Vector databases, agents, toolkits (30 mins)
-- Lab #4: Create embeddings with Faiss and Langchain
-- Lab #5: Ask your SQL DB questions in English
+- 5- Presentation - Embeddings (30 mins)
+- 6- Lab #3 - Create embeddings in pandas
+- 7- Presentation - Langchain, Vector databases, agents, toolkits (30 mins)
+- 8- Lab #4 - Create embeddings with Faiss and Langchain
+- 9- Lab #5 - Ask your SQL DB questions in English
 
 
 ## Requirements
