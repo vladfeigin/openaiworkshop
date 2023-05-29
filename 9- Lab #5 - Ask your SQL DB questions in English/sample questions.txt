@@ -1,0 +1,7 @@
+Azure SQL demo:
+List the tables in the database
+How many products are in the Adventure Works database?
+How many Products are color black?
+How many SalesOrderDetail are for the Product AWC Logo Cap ?
+List the top 10 most expensive products
+What are the top 10 highest grossing products in the Adventure Works database?
