@@ -11,7 +11,7 @@ For this workshop you MUST have the following:
 
 ## OpenAI subscription and deployments
 * Create an Azure OpenAI account
-* Create 'gpt-35-turbo' and 'text-embedding-ada-002' deployments
+* Create 'gpt-35-turbo', 'text-davinci-003' and 'text-embedding-ada-002' deployments
 
 ### VsCode
 * Install [Visual Studio Code](https://code.visualstudio.com/)
@@ -35,17 +35,21 @@ For this workshop you MUST have the following:
     Deactivate the virtualenv:
     $ deactivate
 
-
+# IMPORTANT!
 ### Setup environemnt variables
-* Edit the `.env` file including Azure OpenAI endpoint and key before starting any coding to include the following:
+* Rename the '.env.template' file to '.env' and add all the endpoints and api keys as follows:
+
 OPENAI_DEPLOYMENT_ENDPOINT ="<your openai endpoint>" 
 OPENAI_API_KEY = "<your openai api key>"
 OPENAI_DEPLOYMENT_NAME = "<your gpt35 deployment name>"
 OPENAI_DEPLOYMENT_VERSION = "<gpt35 api version>"
 OPENAI_MODEL_NAME="<gpt35 model name>"
 
-OPENAI_EMBEDDING_DEPLOYMENT_NAME = "<your text embedding ada deployment name>"
-OPENAI_EMBEDDING_MODEL_NAME = "<your text embedding ada model name>"
+OPENAI_ADA_EMBEDDING_DEPLOYMENT_NAME = "<your text embedding ada deployment name>"
+OPENAI_ADA_EMBEDDING_MODEL_NAME = "<your text embedding ada model name>"
+
+OPENAI_DAVINCI_EMBEDDING_DEPLOYMENT_NAME = "<your text embedding ada deployment name>"
+OPENAI_DAVINCI_EMBEDDING_MODEL_NAME = "<your da vinci model name>"
 
 SQL_SERVER="<demo sql server>"
 SQL_USER="<sql user>"
