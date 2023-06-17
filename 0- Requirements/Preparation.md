@@ -81,11 +81,11 @@ SQL_DBNAME="<db name>"
     $SubscriptionId = '<your subscription here>'
 * Go to the azure portal and login with a user that has administrator permissions
 * Open the cloud shell in the azure portal as follows:
-![Cloud shell](./images/step1.png)
+![Cloud shell](./images/step2.png)
 
 * Upload the files in the scripts folder: "createAll.ps1" and "deployAll.bicep" by using the upload file button in the cloud shell
-![Upload](./images/step2.png)
+![Upload](./images/step3.png)
 
 * Run ./createAll.ps1
-![Upload](./images/step4.png)
+![Upload](./images/step5.png)
 NOTE: This takes time so be patient
