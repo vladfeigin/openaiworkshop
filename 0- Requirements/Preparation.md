@@ -74,3 +74,18 @@ SQL_DBNAME="<db name>"
     $ source ./venv/bin/activate
 
 * Make sure you have the requirements installed in your Python environment using `pip install -r requirements.txt`.
+
+
+### Create a sample Azure SQL DB with Adventureworks sample data
+* Insert your subscription ID in the file createAll.ps1 and save it
+    $SubscriptionId = '<your subscription here>'
+* Go to the azure portal and login with a user that has administrator permissions
+* Open the cloud shell in the azure portal as follows:
+![Cloud shell](./images/step1.png)
+
+* Upload the files in the scripts folder: "createAll.ps1" and "deployAll.bicep" by using the upload file button in the cloud shell
+![Upload](./images/step2.png)
+
+* Run ./createAll.ps1
+![Upload](./images/step4.png)
+NOTE: This takes time so be patient
