@@ -57,9 +57,9 @@ For this workshop you MUST have the following:
 
 ### Create a sample Azure SQL DB with Adventureworks sample data
 * Insert your subscription ID in the file [createAll.ps1](./scripts/createAll.ps1) and save it. 
-
+    ```
     $SubscriptionId = "<your subscription here>"
-
+    ```
     This powershell script will create:
     * A resourcegroup called openai-workshop
     * An Azure SQL server called openai-workshop-dbserver with an AdventureWorks DB
@@ -78,7 +78,7 @@ NOTE: This takes time so be patient
 # IMPORTANT!
 ### Setup environment variables
 * Rename the '.env.template' file to '.env' and modify all the endpoints and api keys for all openai deployments as follows:
-
+```
 OPENAI_DEPLOYMENT_ENDPOINT ="<your openai endpoint>" 
 OPENAI_API_KEY = "<your openai api key>"
 OPENAI_DEPLOYMENT_NAME = "<your gpt35 deployment name>"
@@ -95,3 +95,4 @@ SQL_SERVER="openai-workshop-dbserver.database.windows.net"
 SQL_USER="SqlAdmin"
 SQL_PWD="ChangeYourAdminPassword1"
 SQL_DBNAME="aworks"
+```
