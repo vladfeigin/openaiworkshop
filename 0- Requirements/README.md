@@ -56,7 +56,7 @@ For this workshop you MUST have the following:
 
 
 ### Create a sample Azure SQL DB with Adventureworks sample data
-* Insert your subscription ID in the file ![createAll.ps1](./scripts/createAll.ps1) and save it. 
+* Insert your subscription ID in the file [createAll.ps1](./scripts/createAll.ps1) and save it. 
     $SubscriptionId = '<your subscription here>'
 
     This powershell script will create:
