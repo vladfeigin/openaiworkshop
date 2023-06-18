@@ -10,3 +10,4 @@ pypdf
 faiss-cpu
 pymssql
 IPython
+ipykernel
