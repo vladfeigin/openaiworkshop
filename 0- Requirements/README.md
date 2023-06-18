@@ -74,6 +74,8 @@ For this workshop you MUST have the following:
 * Run ./createAll.ps1
 ![Upload](./images/step4.png)
 NOTE: This takes time so be patient
+You should get an Azure SQL server with a DB called aworks
+![Upload](./images/step5.png)
 
 # IMPORTANT!
 ### Setup environment variables
