@@ -16,7 +16,7 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 - 7- Presentation - Langchain, Vector databases, agents, toolkits (30 mins)
 - 8- Lab #4 - Create embeddings with Faiss and Langchain
 - 9- Lab #5 - Ask your SQL DB questions in English
-- 10- Presentation - Advanced topic - TBD
+- 10-Lab #6 - STT Embed TTS Demo
 - 11- Lab #6 - Advanced topic - TBD
 
 
