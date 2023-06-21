@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+data/imdb_movies_with_embeddings.csv
+
 # User-specific files
 *.rsuser
 *.suo
