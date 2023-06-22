@@ -1,4 +1,4 @@
-param serverName string = 'openai-workshop-dbserver'
+param serverName string = '<sql server name>'
 param databaseName string = 'aworks'
 param location string = 'westeurope'
 param adminLogin string = 'SqlAdmin'

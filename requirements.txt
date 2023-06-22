@@ -11,5 +11,4 @@ faiss-cpu
 pymssql
 IPython
 ipykernel
-
 azure-cognitiveservices-speech

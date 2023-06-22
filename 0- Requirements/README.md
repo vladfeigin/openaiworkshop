@@ -60,10 +60,14 @@ For this workshop you MUST have the following:
     ```
     $SubscriptionId = "<your subscription here>"
     ```
-    This powershell script will create:
+* Insert a name for your sql server in the file [deployAll.bicep](./scripts/deployAll.bicep) and save it
+    ```
+    param serverName string = '<sql server name>'
+    ```
+* This powershell script will create:
     * A resourcegroup called openai-workshop
-    * An Azure SQL server called openai-workshop-dbserver with an AdventureWorks DB
-    
+    * An Azure SQL server called <your sql server name> with an AdventureWorks DB
+
 * Go to the azure portal and login with a user that has administrator permissions
 * Open the cloud shell in the azure portal as follows:
 ![Cloud shell](./images/step2.png)
@@ -93,7 +97,7 @@ OPENAI_ADA_EMBEDDING_MODEL_NAME = "<your text embedding ada model name>"
 OPENAI_DAVINCI_EMBEDDING_DEPLOYMENT_NAME = "<your text embedding ada deployment name>"
 OPENAI_DAVINCI_EMBEDDING_MODEL_NAME = "<your da vinci model name>"
 
-SQL_SERVER="openai-workshop-dbserver.database.windows.net"
+SQL_SERVER="<your sql server>.database.windows.net"
 SQL_USER="SqlAdmin"
 SQL_PWD="ChangeYourAdminPassword1"
 SQL_DBNAME="aworks"
