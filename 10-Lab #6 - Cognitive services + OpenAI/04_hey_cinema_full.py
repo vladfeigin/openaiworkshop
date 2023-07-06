@@ -98,7 +98,7 @@ df["embedding"] = df.embedding.apply(eval).apply(np.array)
 american_voice = 'en-US-RogerNeural'
 
 # listen to the question
-print("Why don't you tell me which kind of movie you want? ==>")
+print("Please tell me which kind of movie are you looking for? ==>")
 question_text = recognize_from_microphone()
 # ask the question
 answer_text   = ask_question(question=question_text, n=3)

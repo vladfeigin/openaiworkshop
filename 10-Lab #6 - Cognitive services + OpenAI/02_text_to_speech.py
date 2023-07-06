@@ -47,7 +47,7 @@ def text_to_speech(text, voice="en-US-JennyNeural"):
 
 
 # Get text from the console and synthesize to the default speaker.
-print("Enter some text that you want to speak ==>")
+print("Enter some text that you want me to read out loud ==>")
 text = input()
 if len(text) == 0:
     text = default_text
