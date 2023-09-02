@@ -9,7 +9,7 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 
 - 1- Presentation - Introduction to LLMs, GPT, Prompt engineering and Langchain 
 - 2- Lab #1 - Connect to OpenAI and ask questions
-- 3- Lab #2 - Create prompts for summarization, json, tabular answer
+- 3- Lab #2 - Create prompts for summarization
 - 4- Presentation - Embeddings (30 mins)
 - 5- Lab #3 - Create embeddings in pandas
 - 6- Presentation - Langchain, Vector databases, agents, toolkits (30 mins)
