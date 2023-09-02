@@ -17,6 +17,10 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 - 8- Lab #5 - Ask your SQL DB questions in English
 - 9- Presentation - Lab #6 - Cognitive services + OpenAI
 - 10- Lab #6 - Cognitive services + OpenAI
+- 11- Lab #7 - QnA on Your Documents
+- 12- Lab #7a - Retrieval Augmented Generation with Azure Cognitive Search
+- 13- Lab #8 - Computer vision + OpenAI
+- 14- Lab9 - Model functions calling
 
 
 ## Requirements
