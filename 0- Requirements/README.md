@@ -11,7 +11,7 @@ For this workshop you MUST have the following:
 
 ## OpenAI subscription and deployments
 * Create an Azure OpenAI account
-* Create 'gpt-35-turbo', 'text-davinci-003' and 'text-embedding-ada-002' deployments
+* Create 'gpt-35-turbo','text-embedding-ada-002' deployments
 
 ### VsCode
 * Install [Visual Studio Code](https://code.visualstudio.com/)

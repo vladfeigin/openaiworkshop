@@ -9,7 +9,7 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 
 - 1- Presentation - Introduction to LLMs, GPT, Prompt engineering and Langchain 
 - 2- Lab #1 - Connect to OpenAI and ask questions
-- 3- Lab #2 - Create prompts for summarization, json, tabular answer
+- 3- Lab #2 - Create prompts for summarization
 - 4- Presentation - Embeddings (30 mins)
 - 5- Lab #3 - Create embeddings in pandas
 - 6- Presentation - Langchain, Vector databases, agents, toolkits (30 mins)
@@ -17,6 +17,10 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 - 8- Lab #5 - Ask your SQL DB questions in English
 - 9- Presentation - Lab #6 - Cognitive services + OpenAI
 - 10- Lab #6 - Cognitive services + OpenAI
+- 11- Lab #7 - QnA on Your Documents
+- 12- Lab #7a - Retrieval Augmented Generation with Azure Cognitive Search
+- 13- Lab #8 - Computer vision + OpenAI
+- 14- Lab9 - Model functions calling
 
 
 ## Requirements
