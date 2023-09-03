@@ -12,3 +12,4 @@ faiss-cpu
 IPython
 ipykernel
 azure-cognitiveservices-speech
+azure-ai-vision
