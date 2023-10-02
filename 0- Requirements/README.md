@@ -2,7 +2,7 @@ For this workshop you MUST have the following:
 
 ## Requirements
 - VsCode
-- Python 3.7
+- Python 3.7+
 - A virtual environment tool (venv)
 - An Azure account 
 - An active Azure OpenAI account with 2 deployed models see below
@@ -11,13 +11,14 @@ For this workshop you MUST have the following:
 
 ## OpenAI subscription and deployments
 * Create an Azure OpenAI account
-* Create 'gpt-35-turbo','text-embedding-ada-002' deployments
+* Create 'gpt-35-turbo', gpt-35-turbo-instruct, 'text-embedding-ada-002' deployments
 
 ### VsCode
 * Install [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Python
 * Install [Python 3.7](https://www.python.org/downloads/release/python-31011/)
+
 
 ### Python3 Virtualenv Setup
 *  Installation
@@ -35,15 +36,7 @@ For this workshop you MUST have the following:
     Deactivate the virtualenv:
     $ deactivate
 
-#### Python3 Virtualenv Setup
-*  Installation
-        To install virtualenv via pip run:
-            $ pip3 install virtualenv
-* Creation of virtualenv:
-    - Windows
-    $ python -m virtualenv venv (in the openAI workshop directory)
-    - Mac
-    $ virtualenv -p python3 <desired-path>
+
 
 ### Install all libraries in your virtual environment
 * Activate the environment
@@ -94,8 +87,6 @@ OPENAI_MODEL_NAME="<gpt35 model name>"
 OPENAI_ADA_EMBEDDING_DEPLOYMENT_NAME = "<your text embedding ada deployment name>"
 OPENAI_ADA_EMBEDDING_MODEL_NAME = "<your text embedding ada model name>"
 
-OPENAI_DAVINCI_EMBEDDING_DEPLOYMENT_NAME = "<your text embedding ada deployment name>"
-OPENAI_DAVINCI_EMBEDDING_MODEL_NAME = "<your da vinci model name>"
 
 SQL_SERVER="<your sql server>.database.windows.net"
 SQL_USER="SqlAdmin"
