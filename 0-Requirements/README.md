@@ -14,7 +14,7 @@ For this workshop you MUST have the following:
 * Create 'gpt-35-turbo',  gpt-35-turbo-instruct, 'text-embedding-ada-002' deployments
 
 
-### Clone workshop repository
+### Clone workshop repository from github
  - create a folder in your local machine called azure-openai
  - cd into the folder
  - run the following command:
