@@ -9,7 +9,7 @@ For this workshop you MUST have the following:
 
 ## Preparation
 
-### OpenAI subscription and deployments. If you already have an Azure OpenAI account with the following deployments you can skip this step.
+### OpenAI subscription and deployments. Skip to the next section if you already have an Azure OpenAI account with the following deployments.
 * Create an Azure OpenAI account
 * Create 'gpt-35-turbo',  gpt-35-turbo-instruct, 'text-embedding-ada-002' deployments
 
@@ -35,12 +35,12 @@ For this workshop you MUST have the following:
 ### Install Virtual Environment in VsCode (Simplest Way)
     - Install the Python extension for VsCode
     - Install the Jupyter notebooks extension for VsCode
-    - In Command Palette (Ctrl+Shift+P), select Python: Create Virtul Environment
+    - In Command Palette (Ctrl+Shift+P), select Python: Create Virtual Environment
     - Select: Venv Create a .venv virtual environment..
-    - Select the interpreter/kernel: Python 3.10+ 
+    - Select the interpreter/kernel: Python 3.10 
 
 
-### Python3 Virtualenv Setup. Skip this step if you already installed via VsCode
+### Python3 Virtualenv Setup. Skip to the next section if you already installed Virtualenv via VsCode
 *  Installation
         To install virtualenv via pip run:
             $ pip3 install virtualenv
