@@ -59,8 +59,8 @@ For this workshop you MUST have the following:
 
     Make sure you are in the openaiworkshop folder the project root folder
 
-   ``` Windows users: If you encouner this error when opening a new terminal: _venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system._ 
-       Then do following actions as described in this [link](https://stackoverflow.com/questions/69605313/vs-code-terminal-activate-ps1-cannot-be-loaded-because-running-scripts-is-disa)```
+   _Windows users_: If you encouner this error when opening a new terminal: _venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system._ 
+       Then do following actions as described in this [link](https://stackoverflow.com/questions/69605313/vs-code-terminal-activate-ps1-cannot-be-loaded-because-running-scripts-is-disa)
 
 
 ### Optional. Create a sample Azure SQL DB with Adventureworks sample data.
