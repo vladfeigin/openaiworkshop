@@ -2,7 +2,7 @@ For this workshop you MUST have the following:
 
 ## Requirements
 - VsCode
-- Python 3.7+
+- Python 3.10
 - A virtual environment tool (venv)
 - An Azure account 
 - An active Azure OpenAI account with 2 deployed models see below
@@ -17,10 +17,15 @@ For this workshop you MUST have the following:
 * Install [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Python
-* Install [Python 3.7](https://www.python.org/downloads/release/python-31011/)
+* Install [Python 3.10](https://www.python.org/downloads/release/python-31011/)
 
+### Install Virtual Environment in VsCode (Simplest Way)
+    - Install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for VsCode
+    - In Command Palette (Ctrl+Shift+P), select Python: Create Virtul Environment
+    - Select: Venv Create a .venv virtual environment..
+    - Select the interpreter: Python 3.10+
 
-### Python3 Virtualenv Setup
+### Python3 Virtualenv Setup. Skip it if you installed via VsCode
 *  Installation
         To install virtualenv via pip run:
             $ pip3 install virtualenv
@@ -36,19 +41,12 @@ For this workshop you MUST have the following:
     Deactivate the virtualenv:
     $ deactivate
 
-
-
 ### Install all libraries in your virtual environment
-* Activate the environment
-    Windows:
-        .\venv\Scripts\activate.ps1
-    Mac:
-    $ source ./venv/bin/activate
-
-* Make sure you have the requirements installed in your Python environment using `pip install -r requirements.txt`.
+ Open New Terminal in VsCode and run:
+    $ pip install -r requirements.txt
 
 
-### Create a sample Azure SQL DB with Adventureworks sample data
+### Optional.Create a sample Azure SQL DB with Adventureworks sample data.
 * Insert your subscription ID in the file [createAll.ps1](./scripts/createAll.ps1) and save it. 
     ```
     $SubscriptionId = "<your subscription here>"
