@@ -21,6 +21,8 @@ For this workshop you MUST have the following:
     ```
     git clone https://github.com/vladfeigin/openaiworkshop.git 
     ```
+    Note that you must git / github desktop installed on your machine. If you don't have it installed you can download it from [here](https://desktop.github.com/)
+
 - cd into the openaiworkshop folder, here you will find all the sources for the workshop
 
 ### VsCode
@@ -31,7 +33,8 @@ For this workshop you MUST have the following:
 * Install [Python 3.10](https://www.python.org/downloads/release/python-31011/)
 
 ### Install Virtual Environment in VsCode (Simplest Way)
-    - Install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for VsCode
+    - Install the Python extension for VsCode
+    - Install the Jupyter extension for VsCode
     - In Command Palette (Ctrl+Shift+P), select Python: Create Virtul Environment
     - Select: Venv Create a .venv virtual environment..
     - Select the interpreter/kernel: Python 3.10+ 
