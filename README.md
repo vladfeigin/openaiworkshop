@@ -13,14 +13,13 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 - 4- Presentation - Embeddings (30 mins)
 - 5- Lab #3 - Create embeddings in pandas
 - 6- Presentation - Langchain, Vector databases, agents, toolkits (30 mins)
-- 7- Lab #4 - Create embeddings with Faiss and Langchain
+- 7- Lab #4 - Embeddings amd similarity search
 - 8- Lab #5 - Ask your SQL DB questions in English
 - 9- Presentation - Lab #6 - Cognitive services + OpenAI
 - 10- Lab #6 - Cognitive services + OpenAI
-- 11- Lab #7 - QnA on Your Documents
-- 12- Lab #7a - Retrieval Augmented Generation with Azure Cognitive Search
-- 13- Lab #8 - Computer vision + OpenAI
-- 14- Lab9 - Model functions calling
+- 11- Lab #7 - Retrieval Augmented Generation with Azure Cognitive Search
+- 12- Lab #8 - Computer vision + OpenAI
+- 13- Lab9 - Model Functions Calling
 
 
 ## Requirements
