@@ -56,8 +56,10 @@ For this workshop you MUST have the following:
 ### Install all libraries in your virtual environment
  - Open New Terminal in VsCode and run:
     - $ pip install -r requirements.txt
+
     Make sure you are in the openaiworkshop folder the project root folder
-   ``` Windows users: If you encouner this error when opening a new terminal: ***venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system.*** 
+
+   ``` Windows users: If you encouner this error when opening a new terminal: _venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system._ 
        Then do following actions as described in this [link](https://stackoverflow.com/questions/69605313/vs-code-terminal-activate-ps1-cannot-be-loaded-because-running-scripts-is-disa)```
 
 
