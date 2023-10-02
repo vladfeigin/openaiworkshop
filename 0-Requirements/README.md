@@ -9,6 +9,15 @@ For this workshop you MUST have the following:
 
 ## Preparation
 
+## Clone workshop repository
+ - create a folder in your local machine called azure-openai
+ - cd into the folder
+ - run the following command:
+    ```
+    git clone https://github.com/vladfeigin/openaiworkshop.git 
+    ```
+- cd into the openaiworkshop folder, here you will find all the sources for the workshop
+
 ## OpenAI subscription and deployments
 * Create an Azure OpenAI account
 * Create 'gpt-35-turbo', gpt-35-turbo-instruct, 'text-embedding-ada-002' deployments
@@ -23,9 +32,9 @@ For this workshop you MUST have the following:
     - Install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) for VsCode
     - In Command Palette (Ctrl+Shift+P), select Python: Create Virtul Environment
     - Select: Venv Create a .venv virtual environment..
-    - Select the interpreter: Python 3.10+
+    - Select the interpreter/kernel: Python 3.10+ 
 
-### Python3 Virtualenv Setup. Skip it if you installed via VsCode
+### Python3 Virtualenv Setup. Skip this step if you already installed via VsCode
 *  Installation
         To install virtualenv via pip run:
             $ pip3 install virtualenv
@@ -44,6 +53,8 @@ For this workshop you MUST have the following:
 ### Install all libraries in your virtual environment
  - Open New Terminal in VsCode and run:
     $ pip install -r requirements.txt
+
+    Make sure you are in the openaiworkshop folder the project root folder
 
 
 ### Optional. Create a sample Azure SQL DB with Adventureworks sample data.
