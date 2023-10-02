@@ -34,7 +34,7 @@ For this workshop you MUST have the following:
 
 ### Install Virtual Environment in VsCode (Simplest Way)
     - Install the Python extension for VsCode
-    - Install the Jupyter extension for VsCode
+    - Install the Jupyter notebooks extension for VsCode
     - In Command Palette (Ctrl+Shift+P), select Python: Create Virtul Environment
     - Select: Venv Create a .venv virtual environment..
     - Select the interpreter/kernel: Python 3.10+ 
