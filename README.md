@@ -19,8 +19,8 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 - 10- Lab #6 - Cognitive services + OpenAI
 - 11- Lab #7 - Retrieval Augmented Generation with Azure Cognitive Search
 - 12- Lab #8 - Computer vision + OpenAI
-- 13- Lab9 - Model Functions Calling
+- 13- Lab #9 - Model Functions Calling
 
 
 ## Requirements
-* In order to participate in the workshop you must follow the instructions in the ["0- Requirements folder"](./0- Requirements/README.md)
+* In order to participate in the workshop you must follow the instructions in the ["0- Requirements folder"](./0-Requirements/Preparation.md) 
