@@ -24,4 +24,4 @@ This agenda covers a range of topics, from the basics of LLMs and GPT to more ad
 
 
 ## Requirements
-* In order to participate in the workshop you must follow the instructions in the ["0- Requirements folder"](./0-%20Requirements/Preparation.md)
+* In order to participate in the workshop you must follow the instructions in the ["0- Requirements folder"](./0- Requirements/README.md)

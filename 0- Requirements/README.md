@@ -42,11 +42,11 @@ For this workshop you MUST have the following:
     $ deactivate
 
 ### Install all libraries in your virtual environment
- Open New Terminal in VsCode and run:
+ - Open New Terminal in VsCode and run:
     $ pip install -r requirements.txt
 
 
-### Optional.Create a sample Azure SQL DB with Adventureworks sample data.
+### Optional. Create a sample Azure SQL DB with Adventureworks sample data.
 * Insert your subscription ID in the file [createAll.ps1](./scripts/createAll.ps1) and save it. 
     ```
     $SubscriptionId = "<your subscription here>"
