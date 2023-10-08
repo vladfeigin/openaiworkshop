@@ -2,7 +2,7 @@ For this workshop you MUST have the following:
 
 ## Requirements
 - VsCode
-- Python 3.10
+- Python 3.10 (Install Python 3.10.0 from [here](https://www.python.org/downloads/release/python-3100/))
 - A virtual environment tool (venv)
 - An Azure account 
 - An active Azure OpenAI account with 2 deployed models see below
@@ -30,7 +30,7 @@ For this workshop you MUST have the following:
 
 
 ### Python
-* Install [Python 3.10](https://www.python.org/downloads/release/python-31011/)
+* Install [Python 3.10](https://www.python.org/downloads/release/python-3100/)
 
 ### Install Virtual Environment in VsCode (Simplest Way)
     - Install the Python extension for VsCode
@@ -64,7 +64,12 @@ For this workshop you MUST have the following:
 
    _Windows users_: If you encouner this error when opening a new terminal: _venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system._ 
        Then do following actions as described in this [link](https://stackoverflow.com/questions/69605313/vs-code-terminal-activate-ps1-cannot-be-loaded-because-running-scripts-is-disa)
-
+    
+    - If you have proxy issues, when running _pip install_, then run the following command to bypasas the proxy:
+        ```
+        set http_proxy = http://genproxy:8080
+        set https_proxy = https://genproxy:8080
+        ```
 
 ### Optional. Create a sample Azure SQL DB with Adventureworks sample data.
 * Insert your subscription ID in the file [createAll.ps1](./scripts/createAll.ps1) and save it. 
@@ -98,12 +103,16 @@ You should get an Azure SQL server with a DB called aworks
 ```
 OPENAI_DEPLOYMENT_ENDPOINT ="<your openai endpoint>" 
 OPENAI_API_KEY = "<your openai api key>"
-OPENAI_DEPLOYMENT_NAME = "<your gpt35 deployment name>"
-OPENAI_DEPLOYMENT_VERSION = "<gpt35 api version>"
-OPENAI_MODEL_NAME="<gpt35 model name>"
 
-OPENAI_ADA_EMBEDDING_DEPLOYMENT_NAME = "<your text embedding ada deployment name>"
-OPENAI_ADA_EMBEDDING_MODEL_NAME = "<your text embedding ada model name>"
+OPENAI_DEPLOYMENT_NAME="gpt-35-turbo"
+OPENAI_MODEL_NAME="gpt-35-turbo"
+
+OPENAI_ADA_EMBEDDING_DEPLOYMENT_NAME="text-embedding-ada-002"
+OPENAI_ADA_EMBEDDING_MODEL_NAME="text-embedding-ada-002"
+
+#Model for Completion API
+OPENAI_GPT_35_TURBO_INSTRUCT_MODEL_NAME="gpt-35-turbo-instruct"
+OPENAI_GPT_35_TURBO_INSTRUCT_DEPLOYMENT_NAME="gpt-35-turbo-instruct"
 
 OPENAI_API_TYPE="azure"
 OPENAI_DEPLOYMENT_VERSION='2023-05-15'
