@@ -67,8 +67,14 @@ For this workshop you MUST have the following:
     
     - If you have proxy issues, when running _pip install_, then run the following command to bypasas the proxy:
         ```
-        set http_proxy = http://genproxy:8080
-        set https_proxy = https://genproxy:8080
+        set http_proxy = http://<proxy>:8080
+        set https_proxy = https://<proxy>:8080
+
+        or in the code:
+
+        os.environ['HTTP_PROXY'] = proxy
+        os.environ['HTTPS_PROXY'] = proxy
+
         ```
 
 ### Optional. Create a sample Azure SQL DB with Adventureworks sample data.
