@@ -581,3 +581,4 @@ Lab #3 - Create embeddings in pandas/faiss_index_store/index.faiss
 Lab #4 - Embeddings and similarity search/dbs/documentation/faiss_index/index.faiss
 Lab #4 - Embeddings and similarity search/dbs/documentation/faiss_index/index.pkl
 Lab #7 - Retrieval Augmented Generation with Azure Cognitive Search/sk_Vectors.json
+.env_vlad
