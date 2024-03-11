@@ -12,4 +12,6 @@ faiss-cpu
 IPython
 ipykernel
 azure-cognitiveservices-speech
+mplcursors
+docarray
 #azure-ai-vision
